@@ -15,7 +15,7 @@ spec:
         app: insecure-app
     spec:
       containers:
-      - image: confusedcrib/insecure-app:latest
+      - image: confusedcrib/insecure-app:latest@sha256:0ca113ec4ede454ded879201f21898dc35ee30b7f0687f52420910774c0f0071
         name: insecure-app
         env:
         - name: AWS_ACCESS_KEY_ID

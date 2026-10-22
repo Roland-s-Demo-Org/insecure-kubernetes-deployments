@@ -17,7 +17,7 @@ spec:
       securityContext:
         runAsNonRoot: true
       containers:
-      - image: confusedcrib/workload-security-evaluator:latest
+      - image: confusedcrib/workload-security-evaluator:latest@sha256:c59507eb6f922600652e64d5394c51b7b59f8e6295822aba7a03d9b993eb84cd
         name: workload-security-evaluator
         env:
         - name: AWS_ACCESS_KEY_ID
